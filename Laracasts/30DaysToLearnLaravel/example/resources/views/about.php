@@ -16,6 +16,6 @@
         </style>
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <h1 class="text-white">Hello world!</h1>
+        <h1 class="text-white">Hello from the about page</h1>
     </body>
 </html>
