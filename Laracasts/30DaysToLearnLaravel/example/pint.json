@@ -10,6 +10,7 @@
         "braces_position" : {
             "control_structures_opening_brace" : "next_line_unless_newline_at_signature_end"
         },
+        "not_operator_with_successor_space" : false,
         "return_type_declaration" : {
             "space_before" : "one"
         }

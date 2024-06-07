@@ -36,7 +36,7 @@ class Job
             return $job['id'] == $id;
         });
 
-        if (! $job)
+        if (!$job)
         {
             abort(404);
         }
