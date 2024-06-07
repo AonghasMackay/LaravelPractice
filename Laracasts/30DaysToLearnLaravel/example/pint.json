@@ -6,6 +6,9 @@
             "position_after_functions_and_oop_constructs": "next",
             "position_after_control_structures": "next",
             "position_after_anonymous_constructs": "next"
+        },
+        "return_type_declaration" : {
+            "space_before" : "one"
         }
     }
 }
