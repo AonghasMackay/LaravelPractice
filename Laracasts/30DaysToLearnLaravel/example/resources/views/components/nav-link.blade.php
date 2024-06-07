@@ -1,4 +1,4 @@
-@props(['active' => false])
+@props(['active' => false, 'type' => 'a'])
 
 @php
     $classes = 'block px-3 py-2 rounded-md text-base font-medium';
@@ -13,4 +13,8 @@
     }
 @endphp
 
-<a {{ $attributes }} class="{{ $classes }}" aria-current="page">{{ $slot }}</a>
+@if($type == 'a')
+    <a {{ $attributes }} class="{{ $classes }}" aria-current="page">{{ $slot }}</a>
+@else
+    <button {{ $attributes }} class="{{ $classes }}">{{ $slot }}</button>
+@endif
